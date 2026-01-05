@@ -11,6 +11,15 @@ func Test() {
 		fmt.Println(fruits[i])
 	}
 
-	arr := [3]int{1, 2, 3}
-	slice := arr[0:1]
+}
+
+func TestUsageOfCapacity() {
+	arr := [6]int{1, 2, 3, 4, 5, 6}
+	slice := arr[2:4]
+	//slice[1] = 22
+	fmt.Println(slice)
+	newSlice := append(slice, 77, 88, 99, 1000)
+	fmt.Println("newSlice = ", newSlice)
+	fmt.Println("slice = ", slice)
+	fmt.Println("arr = ", arr)
 }

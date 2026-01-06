@@ -1,6 +1,8 @@
 package main
 
-import "goStudy/ArraysAndSliceLearn/SlicesLearn"
+import (
+	"goStudy/GolangBasics/ArraysAndSliceLearn/SlicesLearn"
+)
 
 func main() {
 	//ArraysLearn.Test()

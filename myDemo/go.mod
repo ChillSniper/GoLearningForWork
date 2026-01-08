@@ -1,8 +1,4 @@
-<<<<<<< HEAD
 module myDemo
-=======
-module goStudy
->>>>>>> 7f2f042eba408e185d865351e2bb3647fa970daa
 
 go 1.25.5
 
